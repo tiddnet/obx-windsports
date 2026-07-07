@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1P2LPD0VMY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1P2LPD0VMY');
+  </script>
+  <title>OBX Wind Sports — Kiteboarding &amp; Windsurfing Rentals, Outer Banks NC</title>
+  <meta name="description" content="A rider's guide to wind-sports rentals on Hatteras Island, NC — Canadian Hole, the tri-villages, and Island Creek. Real GIS-verified water access, not marketing claims.">
+  <meta property="og:title" content="OBX Wind Sports">
+  <meta property="og:description" content="A rider's guide to kiteboarding &amp; windsurfing rentals on Hatteras Island, NC.">
+  <meta property="og:image" content="https://obx.deals/images/hero.png">
+  <link rel="canonical" href="https://windsports.obx.deals/">
+  <link rel="icon" href="https://obx.deals/favicon.ico">
+  <style>
+    :root {
+      --ink: #0f1d1c; --muted: #4d6663; --rule: #d7e8e6;
+      --accent: #0d9488; --accent-dark: #0a6d64; --bg: #f3faf9; --card-bg: #fff;
+      --nav-bg: #1A2B3C; --nav-text: #b8d0cc; --nav-active: #ffffff; --nav-gold: #E8B84B;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 17px; line-height: 1.6;
+    }
+    a { color: var(--accent-dark); }
+    /* nav */
+    .site-nav { background: var(--nav-bg); position: sticky; top: 0; z-index: 100; border-bottom: 2px solid var(--nav-gold); }
+    .site-nav-inner { max-width: 980px; margin: 0 auto; display: flex; align-items: center; padding: 0 1.25rem; flex-wrap: wrap; }
+    .nav-brand { display: flex; align-items: center; gap: 0.45rem; font-weight: 800; font-size: 1.1rem; color: var(--nav-active); text-decoration: none; padding: 0.75rem 0; margin-right: 0.75rem; white-space: nowrap; }
+    .nav-brand:hover { color: var(--nav-gold); }
+    .nav-brand .brand-obx { color: var(--nav-gold); }
+    .nav-links { display: flex; align-items: stretch; gap: 0; flex: 1; overflow-x: auto; scrollbar-width: none; }
+    .nav-links::-webkit-scrollbar { display: none; }
+    .nav-links a { color: var(--nav-text); text-decoration: none; font-size: 0.85rem; font-weight: 500; padding: 0.75rem 0.8rem; white-space: nowrap; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+    .nav-links a:hover { color: var(--nav-active); }
+    .nav-links a.nav-active { color: var(--nav-active); border-bottom-color: #2dd4c4; font-weight: 600; }
+    .nav-cta { margin-left: auto; flex-shrink: 0; }
+    .nav-cta a { display: inline-block; background: var(--nav-gold); color: #1A2B3C; font-weight: 700; padding: 0.4rem 0.85rem; border-radius: 5px; text-decoration: none; font-size: 0.82rem; margin: 0.6rem 0; }
+    /* hero */
+    .hero { background: linear-gradient(160deg, #0a2f2c 0%, #0d4a44 55%, #0d9488 130%); color: #eafff9; padding: 3.5rem 1.5rem 3rem; }
+    .hero-inner { max-width: 760px; margin: 0 auto; }
+    .hero-eyebrow { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #7fe0d2; margin-bottom: 0.7rem; }
+    .hero h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); letter-spacing: -0.01em; line-height: 1.12; margin-bottom: 1.1rem; }
+    .hero p { font-size: 1.05rem; color: #cdf3ec; max-width: 62ch; margin-bottom: 0.9rem; }
+    .hero p:last-of-type { margin-bottom: 0; }
+    /* areas */
+    main { max-width: 980px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+    .section-head { font-size: 1.5rem; letter-spacing: -0.01em; margin-bottom: 0.3rem; }
+    .section-sub { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.8rem; max-width: 60ch; }
+    .area-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin-bottom: 3.5rem; }
+    .area-card { background: var(--card-bg); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: box-shadow .15s, transform .15s; }
+    .area-card:hover { box-shadow: 0 8px 24px rgba(13,148,136,.15); transform: translateY(-2px); }
+    .area-card-top { background: var(--accent); color: #fff; padding: 1.4rem 1.4rem 1.1rem; }
+    .area-card-count { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; margin-bottom: 0.3rem; }
+    .area-card-name { font-size: 1.3rem; font-weight: 700; }
+    .area-card-body { padding: 1.1rem 1.4rem 1.4rem; font-size: 0.92rem; color: var(--muted); flex: 1; }
+    .area-card-cta { padding: 0 1.4rem 1.2rem; font-size: 0.85rem; font-weight: 600; color: var(--accent-dark); }
+    /* guide teaser */
+    .guide-teaser { background: #fff; border: 1px solid var(--rule); border-left: 4px solid var(--nav-gold); border-radius: 10px; padding: 1.6rem 1.8rem; margin-bottom: 3.5rem; }
+    .guide-teaser h2 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .guide-teaser p { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.9rem; max-width: 60ch; }
+    .guide-teaser a.btn { display: inline-block; background: var(--accent); color: #fff; font-weight: 600; padding: 0.55rem 1.1rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; }
+    /* verify note */
+    .verify-note { display: flex; gap: 1rem; align-items: flex-start; background: #eafaf7; border-radius: 10px; padding: 1.4rem 1.6rem; }
+    .verify-note .icon { font-size: 1.6rem; line-height: 1; }
+    .verify-note p { font-size: 0.92rem; color: var(--muted); max-width: 58ch; }
+    .verify-note a { font-weight: 600; }
+    footer { color: var(--muted); font-size: 0.87rem; margin-top: 3.5rem; border-top: 1px solid var(--rule); padding-top: 1.4rem; }
+    footer a { text-decoration: none; }
+    @media (max-width: 480px) { .nav-links a { padding: 0.7rem 0.55rem; font-size: 0.78rem; } }
+  </style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="OBX Deals network">
+    <div class="site-nav-inner">
+      <a href="https://obx.deals/" class="nav-brand"><span class="brand-obx">OBX</span>&nbsp;Wind Sports</a>
+      <div class="nav-links">
+        <a href="/" class="nav-active">Home</a>
+        <a href="/canadian-hole/">Canadian Hole</a>
+        <a href="/tri-villages/">Tri-Villages</a>
+        <a href="/island-creek/">Island Creek</a>
+        <a href="/guide/">Trip Guide</a>
+      </div>
+      <div class="nav-cta"><a href="https://search.obx.deals/">Search all rentals →</a></div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">Hatteras Island, NC</div>
+      <h1>Where to stay for real wind sports access on the Outer Banks</h1>
+      <p>Hatteras Island is a sandbar forty miles out in the Atlantic with two different bodies of water on it. On the west side, Pamlico Sound: miles of flat, waist-deep, protected water that stays rideable when the ocean is a mess. On the east, the open Atlantic and its waves. In between, a two-lane road and a steady supply of wind that made this stretch of the Outer Banks the East Coast's wind-sports destination decades before anyone put a kite in the air here.</p>
+      <p>This site is a guide to riding it — and to renting the right house while you do. Every property manager on the island will tell you a house is "on the sound" or "steps to the water." Some of those claims are true. Some describe a house a half-mile from any place you could actually rig and launch.</p>
+      <p>We're OBX Deals, a rental price-intelligence company, and we've mapped every rental house in our coverage against the actual shoreline using independent GIS ray-tracing — real distance to real water, computed from parcel coordinates, not copied from a listing description. The houses on this site carry badges based on that analysis, not on what the property manager says about itself.</p>
+    </div>
+  </div>
+
+  <main>
+    <h2 class="section-head">Pick your area</h2>
+    <p class="section-sub">Area by area — Avon, Buxton, and the tri-villages — this is where to stay, what the water is like there, and which houses genuinely put you on it.</p>
+
+    <div class="area-grid">
+      <a class="area-card" href="/canadian-hole/">
+        <div class="area-card-top">
+          <div class="area-card-count">181 wind-sports homes · Buxton</div>
+          <div class="area-card-name">Canadian Hole</div>
+        </div>
+        <div class="area-card-body">The most famous kite/windsurf spot on the East Coast — soundfront launch right off NC-12, the biggest scene, and the deepest bench of rental houses on the island.</div>
+        <div class="area-card-cta">See the area guide →</div>
+      </a>
+      <a class="area-card" href="/tri-villages/">
+        <div class="area-card-top">
+          <div class="area-card-count">11 wind-sports homes · Rodanthe, Waves, Salvo</div>
+          <div class="area-card-name">Tri-Villages</div>
+        </div>
+        <div class="area-card-body">Same flat Pamlico Sound water, a fraction of the crowd. A long history as a kite/windsurf teaching hub, with launches close to where you sleep.</div>
+        <div class="area-card-cta">See the area guide →</div>
+      </a>
+      <a class="area-card" href="/island-creek/">
+        <div class="area-card-top">
+          <div class="area-card-count">16 wind-sports homes · Avon</div>
+          <div class="area-card-name">Island Creek</div>
+        </div>
+        <div class="area-card-body">A small soundfront neighborhood with private community slips and a rigging lawn — home venue of OBX Wind, the Outer Banks' premier annual wind-sports event.</div>
+        <div class="area-card-cta">See the area guide →</div>
+      </a>
+    </div>
+
+    <div class="guide-teaser">
+      <h2>What makes a wind-sports trip actually work</h2>
+      <p>Booking lead time, kite quiver, gear storage, and how to sanity-check a listing's water-access claims before you book — the practical guide, not the marketing copy.</p>
+      <a class="btn" href="/guide/">Read the trip guide →</a>
+    </div>
+
+    <div class="verify-note">
+      <div class="icon">🪁</div>
+      <p><strong>How the badges work:</strong> every "Wind Sports Home" badge on this site comes from independent GIS ray-tracing against real shoreline data — not from what a property manager reports about its own listing. <a href="https://obx.deals/badges/">Learn more about our verified badges →</a></p>
+    </div>
+
+    <footer>
+      <a href="https://obx.deals/">obx.deals</a> &middot;
+      <a href="https://search.obx.deals/">Search all rentals</a> &middot;
+      <a href="https://obx.deals/wind-sports/">Full ranked wind-sports list</a> &middot;
+      <a href="https://owners.obx.deals/">Owner Hub</a>
+    </footer>
+  </main>
+</body>
+</html>
